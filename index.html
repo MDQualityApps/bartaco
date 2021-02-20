@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>bartaco</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+<link rel="stylesheet"  href="jquery.nice-number.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<script src="jquery.nice-number.js"></script>
+	<script type="text/javascript">
+		$(function(){
+
+        $('input[type="number"]').niceNumber();
+
+         });
+	</script>
+
+
+
+<style>
+
+.box{
+	margin: 10px;
+	
+	
+}
+input{
+	padding:4px;
+border-radius: 5px;
+box-shadow: 0 2px 5px;
+margin: 0 5px !important;
+}
+input:hover,
+input:focus
+
+{
+	background-color: #ff008b;
+	color: #fff;
+}
+/*button{
+	border-radius: 5px;
+	padding: 0 10px;
+}
+button:hover{
+	background-color: blue;
+}*/
+
+
+</style>
+
+</head>
+<body>
+
+<div class="container" >
+
+<form method="POST" action="contact.php">
+<div class="row">
+	<div class="col">
+<div class="card" style="width: 15rem;">
+  <img src="images/cake.jpg" class="card-img-top" alt="no image">
+  <div class="card-body">
+    <p class="card-text"><h1>CAKE</h1></p>
+  </div>
+</div>
+ 
+<!--  <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus decrease">-</button>
+  <input type="number" id="quantity" name="quantity" min="0"max="10" class="size" >
+  <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()">+</button>
+   <button type="button" class="btn btn-primary" role="group">add to card</button>                       -->
+  
+<div class="box">
+<input type="number"  id="quantity" name="name" min="0"max="10">
+<input type="submit" class="btn btn-primary" value="add to cart">
+<!-- <button type="button" class="btn  btn-lg btn-secondary" role="group">add to cart</button> -->
+</div>	
+
+
+</div>
+
+
+<!-- adding 2 card -->
+<div class="col">
+<div class="card" style="width: 15rem;">
+  <img src="images/cake.jpg" class="card-img-top" alt="no image">
+  <div class="card-body">
+    <p class="card-text"><H1>CAKE<H1></p>
+  </div>
+</div>
+	<div class="box">
+<input type="number"  id="quantity" name="name" min="0"max="10">
+<input type="submit" class="btn btn-primary" value="add to cart">
+<!-- <button type="button" class="btn  btn-lg btn-secondary" role="group">add to cart</button> -->
+</div>  
+
+</div>
+
+<!-- adding 2 card -->
+
+<div class="col">
+	<div class="card" style="width: 15rem;">
+  <img src="images/cake.jpg" class="card-img-top" alt="no image">
+  <div class="card-body">
+    <p class="card-text"><H1>CAKE<H1></p>
+  </div>
+</div>
+<div class="box">
+<input type="number"  id="quantity" name="name" min="0"max="10">
+<input type="submit" class="btn btn-primary" value="add to cart">
+<!-- <button type="button" class="btn  btn-lg btn-secondary" role="group">add to cart</button> -->
+</div>  
+
+</div>
+<!-- adding 2 card -->
+<div class="col">
+<div class="card" style="width: 15rem;">
+  <img src="images/cake.jpg" class="card-img-top" alt="no image">
+  <div class="card-body">
+    <p class="card-text"><H1>CAKE<H1></p>
+  </div>
+</div>
+<div class="box">
+<input type="number"  id="quantity" name="name" min="0"max="10">
+<input type="submit" class="btn btn-primary" value="add to cart">
+<!-- <button type="button" class="btn  btn-lg btn-secondary" role="group">add to cart</button> -->
+</div>  
+
+</div>
+
+</div>
+</form>
+</div>
+
+<!--  <div class="def-number-input number-input safari_only mb-0 w-100">
+                      <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                        class="minus decrease"></button>
+                      <input class="quantity" min="0" name="quantity" value="1" type="number">
+                      <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                        class="plus increase"></button>
+                    </div>
+                    <small id="passwordHelpBlock" class="form-text text-muted text-center">
+                      (Note, 1 piece)
+                    </small>
+                  	> -->
+
+
+          	
+</body>
+</html>
